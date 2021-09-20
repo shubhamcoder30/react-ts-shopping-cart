@@ -92,8 +92,8 @@ const LoginForm: React.FC<Iprops> = (props) => {
                     variant="filled"
                     onChange={handleChange}
                 />
+                <Button className={classes.button} onClick={Submit} variant="outlined" color="primary"> Log IN </Button>
 
-                <Button className={classes.button} onClick={Submit} variant="outlined" color="secondary"> Log IN </Button>
             </form>
         </div>
     )
